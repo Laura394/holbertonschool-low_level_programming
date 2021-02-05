@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	int n = '0';
+	int n;
 
-	while (n <='9')
-	{
-		putchar(n);
-		n++;
-	}
-	putchar('\n');
+	for (n = 0; n < 10; n++)
+		printf('%d', n);
+	printf("\n");
 
 	return (0);
 }
