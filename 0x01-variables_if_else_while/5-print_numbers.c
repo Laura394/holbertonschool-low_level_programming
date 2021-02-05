@@ -5,5 +5,5 @@ int main()
 	printf( "0123456789" );
 	printf("\n");
 
-	return 0;
+	return (0);
 }
