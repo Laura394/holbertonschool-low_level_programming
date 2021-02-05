@@ -7,13 +7,22 @@
  */
 int main(void)
 {
-	for(int i = 0; i < 100 ; i++)
-	{
+		int cero;
+		int nine;
 
-		putchar((i/10)+'0');
-		putchar((i%10)+'0');
-		printf("\n");
-	}
+		for (cero = '0'; cero <= '9'; cero++)
+		{
+			for (nine = '0'; nine <= '9'; nine++)
+			{
+				putchar(cero);
+				putchar(nine);
+				if (!(cero == '9' && nine == '9'))				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+		putchar('\n');
 
 	return (0);
 }
