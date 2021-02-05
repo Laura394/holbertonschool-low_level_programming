@@ -16,10 +16,9 @@ int main(void)
 			{
 				putchar(cero);
 				putchar(nine);
-				if (!(cero == '9' && nine == '9'))				{
+				if (!(cero == '9' && nine == '9'))
 					putchar(',');
 					putchar(' ');
-				}
 			}
 		}
 		putchar('\n');
