@@ -7,19 +7,20 @@
 int main(void)
 {
 		int cero;
-		int nine;
 
-		for (cero = '0'; cero <= '9'; cero++) /* Cero 00 */
+		cero= 48;
+		while (cero <= 57)
 		{
-			for (nine = '0'; nine <= '9'; nine++) /* Nine 99 */
-			{
+		
 				putchar(cero);
-				putchar(nine);
-				if (!(cero == '9' && nine == '9'))
-					putchar(',');
-					putchar(' ');
-			}
+				if (cero < 57)
+				{
+					putchar(44);
+					putchar(32);
+				
+				}
+				cero++;
 		}
-		putchar('\n');
+		putchar(10);
 		return (0);
 }
