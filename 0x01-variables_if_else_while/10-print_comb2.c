@@ -10,9 +10,9 @@ int main(void)
 		int cero;
 		int nine;
 
-		for (cero = '0'; cero <= '9'; cero++)
+		for (cero = '0'; cero <= '9'; cero++) /* Cero 00 */
 		{
-			for (nine = '0'; nine <= '9'; nine++)
+			for (nine = '0'; nine <= '9'; nine++) /* Nine 99 */
 			{
 				putchar(cero);
 				putchar(nine);
