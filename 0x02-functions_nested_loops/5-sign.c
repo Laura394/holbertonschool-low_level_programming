@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * print_sing - prints the sign of a number
- *@n: number to check
- * Return: Always 0 (Success)
+ * print_sign - prints the sign of a number
+ *@n: is a variable
+ * Return: Always 0.
  */
 
 int print_sign(int n)
