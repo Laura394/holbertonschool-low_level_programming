@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _islower - Entry point
  *
@@ -16,3 +17,4 @@ int _islower(int c)
 	}
 	_putchar('\n');
 }
+
