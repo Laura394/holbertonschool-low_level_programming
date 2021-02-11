@@ -1,20 +1,19 @@
 #include "holberton.h"
 /**
-  3 * _isuper - checks for uppercase character.
-  4 *@c: is a variable
-  5 *Return: Always 0.
-  6  */
-int _isuper(int c)
+* _isdigit - checks for a digit.
+*@c: is a variable
+*Return: Always 0.
+ */
+int _isdigit(int c)
 {
-	int c;
 
-	if (c >= 'A' && c <= 'Z')
+	if (c == '0')
 	{
-		_putchar(1);
+		return (1);
 	}
-	else if (c >= 'a' && c <= 'z')
+	else
 	{
-		_putchar(0);
+		return (0);
 	}
 
 	return (0);
